@@ -1,0 +1,9 @@
+.jumbotron{
+    background-color: #343a40;
+}
+
+.jumbotron h1{
+    text-align:center;
+    color:#54a0ff;
+    font-family: 'Lato', sans-serif;
+}
