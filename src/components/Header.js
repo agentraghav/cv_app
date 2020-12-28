@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 import '../styles/header.css'
 function Header() {
     return (
@@ -7,5 +7,4 @@ function Header() {
         </div>
     )
 }
-
 export default Header
