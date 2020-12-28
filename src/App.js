@@ -1,6 +1,8 @@
 import React from 'react';
 import ProfileImage from './components/ProfileImage';
 import './styles/styles.css'
+import './components/Struct'
+import Struct from './components/Struct';
 function App() {
   return (
     <div>
@@ -8,7 +10,7 @@ function App() {
           <ProfileImage />
       </div>
       <div className="col-md-6">
-          <h1>Information is Added here</h1>
+          <Struct />
       </div>
     </div>
   )
