@@ -2,7 +2,7 @@ import React from 'react'
 import '../styles/header.css'
 function Header() {
     return (
-        <div className="jumbotron">
+        <div className="col-md-12 jumbo">
             <h1 >CV Application</h1>
         </div>
     )

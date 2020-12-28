@@ -5,8 +5,16 @@ import Header from './components/Header'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Header />
-    <App />
+
+    <div className="container-fluid">
+          <div className="row">
+              <Header />
+             <App />
+          </div>
+    </div>
+  
+    
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
