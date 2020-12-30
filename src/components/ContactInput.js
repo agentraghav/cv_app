@@ -39,16 +39,16 @@ function ContactInput(props) {
         <div>
             <form onSubmit={handleChange}>
                 <label>Phone :</label>
-                <input type="text" placeholder="Phone Number" onChange={handlePhone}/>
+                <input type="text" value={phone} placeholder="Phone Number" onChange={handlePhone}/>
                 <br/>
                 <label>LinkedIn :</label>
-                <input type="text" placeholder="LinkedIn" onChange={handleLinkedIn}/>
+                <input type="text" value={linkedIn} placeholder="LinkedIn" onChange={handleLinkedIn}/>
                 <br/>
                 <label>Email :</label>
-                <input type="text" placeholder="Email" onChange={handleEmail}/>
+                <input type="text" value={email} placeholder="Email" onChange={handleEmail}/>
                 <br/>
                 <label>Address :</label>
-                <input type="text" placeholder="Address" onChange={handleAddress}/>
+                <input type="text" value={address} placeholder="Address" onChange={handleAddress}/>
                 <br/>
                 <button>Submit</button>
             </form>
