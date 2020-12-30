@@ -1,6 +1,6 @@
 .name_text{
     font-size: 3.5em;
-    font-weight: 200;
+    font-weight: 900;
     margin-top: 20px;
     text-align:left;
     margin-left: 20px;
@@ -8,14 +8,25 @@
     font-family: 'Lato', sans-serif;
 }
 
+
+.heading{
+    font-family: 'Lato';
+    font-size: 4rem;
+    color: #343a40;
+    margin-left: 20px;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+    font-weight: 900;
+}
+
 .name_text1{
     font-size: 2.5em;
-    font-weight: 400;
+    font-weight: 600;
     margin-top: 20px;
     text-align:left;
     margin-left: 20px;
     color:#343a40;
-    font-family: 'Lato';
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 
@@ -25,4 +36,7 @@
     
 }
 
+.info-set{
+    margin-top: 30px;
+}
 
