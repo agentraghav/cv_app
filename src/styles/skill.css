@@ -1,0 +1,12 @@
+.skill-name{
+    text-align: left;
+    color:#343a40;
+    font-family: 'Open Sans Condensed';
+    font-weight: 700;
+}
+
+.skill-star{
+    text-align: right;
+    color:#54a0ff;
+    align-items: right;
+}

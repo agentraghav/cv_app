@@ -7,12 +7,15 @@ import EduInput from '../components/EduInput'
 import EduSet from '../components/EduSet'
 import ExpInput from '../components/ExpInput'
 import ExpSet from '../components/ExpSet'
+import SkillInput from '../components/SkillInput'
+import SkillSet from '../components/SkillSet'
 import '../styles/name.css'
 function Struct() {
     const [nameEdit,setNameEdit]=useState(false)
     const [infoEdit,setInfoEdit] = useState(false)
     const [eduEdit,setEduEdit]=useState(false)
     const [expEdit,setExpEdit]=useState(false)
+    const [skillEdit,setSkillEdit]=useState(false)
     const editName=()=>{
         setNameEdit(!nameEdit)
     }
@@ -25,6 +28,10 @@ function Struct() {
 
     const editExp=()=>{
         setExpEdit(!expEdit)
+    }
+
+    const editSkill=()=>{
+        setSkillEdit(!skillEdit)
     }
 
     return (
@@ -50,6 +57,15 @@ function Struct() {
                     <div><h1 className="heading">EXPERIENCE</h1></div>
                     <div>
                         {expEdit ? (<ExpInput done={editExp} />) : (<ExpSet done={editExp}/>)}<i class="fas fa-edit" onClick={editExp}/>
+                    </div>
+            </div>
+            <div className="gap">
+                    <div><h1 className="heading">SKILLS</h1></div>
+                    <div>
+                        {skillEdit ? (<SkillInput done={editSkill} />) : (<SkillSet done={editSkill}/>)}
+                        <div>
+                        <i class="fas fa-edit" onClick={editSkill}/>
+                        </div>
                     </div>
             </div>
         </div>
