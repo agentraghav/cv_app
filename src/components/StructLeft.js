@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import ContactInput from '../components/ContactInput'
 import ContactSet from '../components/ContactSet'
+import '../styles/editBut.css'
 function StructLeft() {
     const [contact,setContact]=useState(false)
     const editContact=()=>{
@@ -8,7 +9,10 @@ function StructLeft() {
     }
     return (
         <div>
-            {contact ? (<ContactInput done={editContact}/>) : (<ContactSet done={editContact}/>) } <i class="fas fa-edit" onClick={editContact}/>
+            {contact ? (<ContactInput done={editContact}/>) : (<ContactSet done={editContact}/>) }
+<button className="e-button" style={{marginTop:'10px'}} onClick={editContact}><i class="fas fa-edit" /> Edit</button>
+                        
+               
         </div>
     )
 }

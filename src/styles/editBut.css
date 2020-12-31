@@ -1,0 +1,16 @@
+.e-button{
+    text-align: center;
+    height: 35px;
+    color: white;
+    background-color: #343a40;
+    font-family: 'lato',sans-serif;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.e-button:hover{
+    color: #4188e0;
+}
