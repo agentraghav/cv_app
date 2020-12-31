@@ -2,7 +2,7 @@ import React , {useState} from 'react'
 import '../styles/image.css'
 function ProfileImage() {
    
-    let [profile,setProfile]=useLocalStorage('pic','https://thumbs.dreamstime.com/b/default-avatar-profile-vector-user-profile-default-avatar-profile-vector-user-profile-profile-179376714.jpg')
+    let [profile,setProfile]=useLocalStorage('pic','https://s3.amazonaws.com/37assets/svn/765-default-avatar.png')
 
         function saveImg(e){
             var file = e.target.files[0];

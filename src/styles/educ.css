@@ -1,0 +1,31 @@
+.content-box {
+    background-color: #fafafb;
+    box-shadow: 1px 4px 8px rgba(0,0,0,.15);
+    transition: all .3s ease-in-out;
+    padding: 10px;
+    padding-bottom: 0;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    height: 200px;
+}
+
+.title{
+    text-align: left;
+    color:#343a40;
+    font-family: 'Open Sans Condensed';
+    font-weight: 700;
+}
+.data{
+    text-align: right;
+    color:#54a0ff;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 500;
+}
+
+.lab{
+    font-weight: 600;
+}
+
+.info-del{
+    align-items: right;
+}
