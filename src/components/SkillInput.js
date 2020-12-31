@@ -34,7 +34,7 @@ function SkillInput(props) {
                 <input type="text" value={name} onChange={handleName}/>
                 <br/>
                 <label>Rating :- </label>
-                <input type="number" min={0} max={5} value={rating} onChange={handleRating}/>
+                <input type="number" min={1} max={5} value={rating} onChange={handleRating}/>
                 <br/>
                 <button>Submit</button>
                 <button onClick={props.done}>Cancel</button>
