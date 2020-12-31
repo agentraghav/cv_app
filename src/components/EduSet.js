@@ -25,7 +25,7 @@ export default function EduSet(props) {
                  </div>
                  <div className="col-md-6">
                     
-                     <p className="data"><label>Year : </label>{study.year}</p>
+                     <p className="data"><label className="lab">Year : </label>{study.year}</p>
                  </div>
                  <div>
                  <p className="data"><span className="lab">Course : </span>{study.courseName}</p>

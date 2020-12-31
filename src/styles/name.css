@@ -10,7 +10,7 @@
 
 
 .heading{
-    font-family: 'Lato';
+    font-family: 'Saira Extra Condensed', sans-serif;
     font-size: 4rem;
     color: #343a40;
     margin-left: 20px;
@@ -26,7 +26,7 @@
     text-align:left;
     margin-left: 20px;
     color:#343a40;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
 }
 
 
@@ -40,3 +40,6 @@
     margin-top: 30px;
 }
 
+.gap{
+    margin-top: 30px;
+}

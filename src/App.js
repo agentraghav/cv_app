@@ -7,13 +7,13 @@ import StructLeft from './components/StructLeft';
 function App() {
   return (
     <div>
-      <div className="col-md-4" style={{backgroundColor:"#54a0ff"}}>
+      <div className="col-md-4 stick" style={{backgroundColor:"#54a0ff"}}>
           <ProfileImage />
           <div>
             <StructLeft />
           </div>
       </div>
-      <div className="col-md-6">
+      <div className="col-md-6 div-height">
           <Struct />
       </div>
     </div>

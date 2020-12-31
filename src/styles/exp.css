@@ -6,24 +6,39 @@
     padding-bottom: 0;
     margin-top: 40px;
     margin-bottom: 10px;
-    height: 200px;
+    height: 100%;
 }
 
 .title{
     text-align: left;
-    color:#343a40;
+    color: #54a0ff;
     font-family: 'Open Sans Condensed';
     font-weight: 700;
 }
-.data{
+
+.date{
     text-align: right;
     color:#54a0ff;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+}
+.position{
+    
+    text-align: left;
+    color:#6c7585;
+    font-family: 'Open Sans Condensed';
+    font-weight: 700;
+}
+
+.data-exp{
+    text-align: left;
+    color:#6c7585;
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 500;
 }
 
-
 .lab{
+    color:#343a40;;
     font-weight: 600;
 }
 

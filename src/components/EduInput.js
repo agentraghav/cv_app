@@ -8,13 +8,12 @@ function EduInput(props) {
     
     const addChange=(e)=>{
         const obj={id:'',school:school,year:year,grade:grade,courseName:courseName}
-        console.log(obj)
+        
         edu = edu.map((job, index) => {
             return { ...job, id: index }
         })
         
         edu.push({ ...obj, id: edu.length })
-        console.log(edu)
         window.localStorage.setItem('educ',JSON.stringify(edu))
         console.log(window.localStorage.getItem('educ'))
         props.done()
