@@ -1,20 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import Header from './components/Header'
+import Header from './components/Header';
 
 ReactDOM.render(
   <React.StrictMode>
-
-    <div className="container-fluid">
-          <div className="row">
-              <Header />
-             <App />
-          </div>
+    <div className='container-fluid'>
+      <div className='row' style={{ backgroundColor: '#54a0ff' }}>
+        <Header />
+        <App />
+      </div>
     </div>
-  
-    
-    
   </React.StrictMode>,
   document.getElementById('root')
 );
@@ -22,4 +18,3 @@ ReactDOM.render(
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-
